@@ -25,8 +25,8 @@ int main(){
 
     establish_connection(group_id, secret);
 
-    put_value("key1", "bitcoinTOMOON");
-    put_value("key2", "ADA");
+    put_value("key1", "helloFromTheOtherSide");
+    put_value("key2", "Ad");
     put_value("key4", "olaola");
     put_value("key5", "testeteste");
     get_value("key2", &clientValues);

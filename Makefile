@@ -7,7 +7,7 @@ TARGET2 = app2
 TARGET3 = KVS-LocalServer
 TARGET4 = KVS-AuthServer
 
-all: Application1 Application2 KVS-LocalServer KVS-AuthServer
+all: KVS-LocalServer KVS-AuthServer
 
 Application1:
 	$(CC) -Wall -std=c99 -O3 -pthread -o $(TARGET1) KVS-lib.c KVS-lib.h Application1.c
